@@ -4,6 +4,8 @@
 
 `LearnedFeatureFusion3D` is a multimodal neural network architecture that fuses 3D medical image features with structured metadata through learnable representations and flexible fusion strategies.
 
+![Architecutre of LearnedFeature3D](https://github.com/Richardqiyi/LearnedFusion3D/blob/main/architecture.png)
+
 ---
 
 ## 🧠 Architecture Overview

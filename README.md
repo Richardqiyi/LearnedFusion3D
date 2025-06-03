@@ -48,7 +48,7 @@
 
 ## 📐 Formula
 
-Given a binary classification with prediction probability $$p \in [0, 1] $$ and true label $$ y \in \{0, 1\} $$, the Focal Loss is:
+Given a binary classification with prediction probability $$p \in [0, 1] $$ and true label $$ y \in [0, 1] $$, the Focal Loss is:
 
 $$
 \text{FL}(p, y) = -\alpha \cdot (1 - p_t)^\gamma \cdot \log(p_t)

@@ -69,7 +69,7 @@ $$
 
 ## ✅ Features
 - **Label smoothing**: Reduces overconfidence in predictions.
-- **Dynamic weighting**: Computes $$ \alpha $$ per batch based on label distribution.
+- **Dynamic weighting**: Computes $$\alpha$$ per batch based on label distribution.
 - **Supports reduction modes**: `'none'`, `'mean'`, `'sum'`.
 
 ---

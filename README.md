@@ -64,8 +64,8 @@ p & \text{if } y = 1 \\
 \end{cases}
 $$
 
-- $ \alpha $: Class balancing factor.
-- $ \gamma $: Focusing parameter; larger values down-weight easy examples more.
+-  $$\alpha $$: Class balancing factor.
+-  $$\gamma $$: Focusing parameter; larger values down-weight easy examples more.
 
 ## ✅ Features
 - **Label smoothing**: Reduces overconfidence in predictions.

@@ -50,19 +50,19 @@
 
 Given a binary classification with prediction probability \( p \in [0, 1] \) and true label \( y \in \{0, 1\} \), the Focal Loss is:
 
-\[
+$$
 \text{FL}(p, y) = -\alpha \cdot (1 - p_t)^\gamma \cdot \log(p_t)
-\]
+$$
 
 where:
 
-\[
+$$
 p_t = 
 \begin{cases}
 p & \text{if } y = 1 \\
 1 - p & \text{if } y = 0
 \end{cases}
-\]
+$$
 
 - \( \alpha \): Class balancing factor.
 - \( \gamma \): Focusing parameter; larger values down-weight easy examples more.
